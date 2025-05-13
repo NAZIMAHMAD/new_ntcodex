@@ -7,6 +7,11 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import img1 from '../assets/Images/img1.png'
 import img2 from '../assets/Images/img2.png'
 import img3 from '../assets/Images/img3.png'
+import img4 from '../assets/Images/img4.png'
+import img5 from '../assets/Images/img5.png'
+import img6 from '../assets/Images/img6.png'
+import img7 from '../assets/Images/img7.png'
+
 import { NavLink } from 'react-router-dom';
 
 
@@ -141,6 +146,82 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </NavLink>
 
 </div>
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+</section>
+
+
+{/* SECTION 3.  */}
+
+<section className='w-full h-auto py-12 bg-[#1d2549] lg:px-28 px-3 '>
+
+<div className='container mx-auto h-auto grid grid-cols-1 gap-10 '>
+
+<div className='grid grid-cols-1 items-center'>
+
+<div className='grid grid-cols-1 gap-4'>
+  <p className=' text-[#bdf347] md:text-2xl text-2xl  font-bold'>SERVICES</p>
+
+<h3 className='text-white md:text-4xl text-3xl  font-bold'>Transform your business with advanced technologies</h3>
+</div>
+
+
+
+</div>
+
+<div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-6 gap-8'>
+
+<div className='border-[#828181] border h-auto p-2 text-center relative top-0'>
+
+<div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
+<img src={img4} alt="" className='h-full w-full object-cover'/>
+
+</div>
+
+<p className='absolute  text-2xl text-[#bdf347] capitalize left-5 top-36'>chatbot integration</p>
+
+</div>
+
+<div className='border-[#828181] border h-auto p-2 rounded'>
+
+<div className=' lg:h-[20rem] md:h-[25rem] h-[23rem]'>
+<img src={img5} alt="" className='h-full w-full object-cover'/>
+
+</div>
+
+
+
+</div>
+
+<div className='border-[#828181] border h-auto p-2 rounded'>
+
+<div className=' lg:h-[20rem] md:h-[25rem] h-[23rem]'>
+<img src={img6} alt="" className='h-full w-full object-cover'/>
+
+</div>
+
+
+
+</div>
+
+<div className='border-[#828181] border h-auto p-2 rounded'>
+
+<div className=' lg:h-[20rem] md:h-[25rem] h-[23rem]'>
+<img src={img7} alt="" className='h-full w-full object-cover'/>
+
+</div>
+
+
 
 </div>
 
