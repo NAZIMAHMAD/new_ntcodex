@@ -23,7 +23,7 @@ const Home = () => {
 
       {/* HERO SECTION -SECTION 1. */}
 
-      <section className='bg-black h-auto lg:px-28 px-3 md:px-28 py-20 w-full flex items-center' style={{background:'#1d2549'}}>
+      <section className='bg-black h-auto  px-3 md:px-28 lg:py-20 py-12 w-full flex items-center' style={{background:'#1d2549'}}>
 
         <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2  gap-8 items-center'>
 
@@ -88,11 +88,11 @@ const Home = () => {
 
 </div>
 
-<div className='grid lg:grid-cols-3 grid-cols-1 gap-4'>
+<div className='grid lg:grid-cols-3 grid-cols-1 md:gap-6 gap-8'>
 
 <div className='border-[#828181] border h-auto p-2 rounded'>
 
-<div className=' h-[18rem] object-cover'>
+<div className=' lg:h-[18rem] md:h-[25rem] h-[15rem] object-cover'>
 <img src={img1} alt="" className='h-full w-full object-cover'/>
 
 </div>
@@ -110,7 +110,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 
 <div className='border-[#828181] border h-auto p-2 rounded'>
 
-<div className=' h-[18rem] object-cover'>
+<div className=' lg:h-[18rem] md:h-[25rem] h-[15rem] object-cover'>
 <img src={img2} alt="" className='h-full w-full object-cover'/>
 
 </div>
@@ -128,7 +128,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 
 <div className='border-[#828181] border h-auto p-2 rounded'>
 
-<div className=' h-[18rem] object-cover'>
+<div className=' lg:h-[18rem] md:h-[25rem] h-[15rem] object-cover'>
 <img src={img3} alt="" className='h-full w-full object-cover'/>
 
 </div>

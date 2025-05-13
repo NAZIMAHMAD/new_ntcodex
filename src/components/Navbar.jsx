@@ -15,13 +15,13 @@ const navbar = () => {
     <>
     
     
-<header className='bg-black text-white py-5 w-full px-28 ' style={{background:'#1d2549'}}>
+<header className='bg-[#1d2549] h-auto text-white py-5 w-full lg:px-28  px-3' >
 
 <div className='container mx-auto flex lg:justify-between items-center'>
 
-<div className='lg:w-36 h-12 w-full   border grid grid-cols-2 lg:grid-cols-1'>
-  <img src={logo} alt="" className='lg:w-full lg:h-full w-full h-full object-cover '/>
-  <RiMenuAddFill className='lg:hidden flex text-[#bdf347] text-3xl'/>
+<div className='lg:w-36 w-full h-12 items-center   flex justify-between'>
+  <img src={logo} alt="" className='w-36 h-12 object-cover '/>
+  <RiMenuAddFill className='lg:hidden  flex text-[#bdf347] text-3xl '/>
 
 </div>
 
