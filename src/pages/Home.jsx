@@ -28,7 +28,7 @@ const Home = () => {
 
       {/* HERO SECTION -SECTION 1. */}
 
-      <section className='bg-black h-auto  px-3 md:px-28 lg:py-16 py-12 w-full flex items-center' style={{background:'#1d2549'}}>
+      <section className=' h-auto  px-3 md:px-28 lg:py-16 py-12 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#476504] to-[#1d2549]' >
 
         <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2  gap-8 items-center'>
 
@@ -37,11 +37,10 @@ const Home = () => {
             </h1>
             <p className='text-xl'>Your business is our proterites and we serve the quality , your business is our proterites and we serve the quality</p>
             
-            <button className='md:w-60 border-none rounded-full  h-auto lg:block hidden p-3 border font-bold capitalize text-xl mt-4' style={{background:'#bdf347', color:'#1d2549'}}>
+            <button className='md:w-60 w-60  border-none rounded-full  h-auto lg:block hidden p-3 border font-bold capitalize text-xl mt-4' style={{background:'#bdf347', color:'#1d2549'}}>
               Get in touch <GoArrowDownRight className='inline-block font-bold text-3xl'/>
-
-
             </button>
+
           </div>
 
           <div className='border-[#7d7c7c] border  hidden lg:flex flex-col gap-6 rounded-xl text-black capitalize py-6 px-14'>
@@ -65,8 +64,8 @@ const Home = () => {
 
           </div>
 
-          <div className='lg:hidden md:w-60 block mx-auto w-full rounded-full' style={{background:'#bdf347', color:'#1d2549'}}>
-             <button className='w-full  rounded-full h-auto text-white  p-3 border font-bold capitalize text-xl ' style={{background:'#bdf347', color:'#1d2549'}}>
+          <div className='lg:hidden md:w-60 block mx-auto w-64 rounded-full' style={{background:'#bdf347', color:'#1d2549'}}>
+             <button className='w-full border-none  rounded-full h-auto text-white  p-3 border font-bold capitalize text-xl ' style={{background:'#bdf347', color:'#1d2549'}}>
               Get in touch<GoArrowDownRight className='inline-block font-bold text-3xl'/>
             </button>
           </div>

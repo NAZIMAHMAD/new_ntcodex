@@ -15,7 +15,7 @@ const navbar = () => {
     <>
     
     
-<header className='bg-[#1d2549] h-auto text-white py-5 w-full lg:px-28  px-3' >
+<header className='bg-gradient-to-r from-[#1d2549] via-[#476504] to-[#1d2549] h-auto text-white py-5 w-full lg:px-28  px-3' >
 
 <div className='container mx-auto flex lg:justify-between items-center'>
 
