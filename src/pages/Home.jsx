@@ -28,7 +28,7 @@ const Home = () => {
 
       {/* HERO SECTION -SECTION 1. */}
 
-      <section className='bg-black h-auto  px-3 md:px-28 lg:py-20 py-12 w-full flex items-center' style={{background:'#1d2549'}}>
+      <section className='bg-black h-auto  px-3 md:px-28 lg:py-16 py-12 w-full flex items-center' style={{background:'#1d2549'}}>
 
         <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2  gap-8 items-center'>
 
@@ -44,14 +44,17 @@ const Home = () => {
             </button>
           </div>
 
-          <div className='border-[#7d7c7c] border  hidden lg:flex flex-col gap-6 rounded-xl text-white capitalize py-6 px-14'>
+          <div className='border-[#7d7c7c] border  hidden lg:flex flex-col gap-6 rounded-xl text-black capitalize py-6 px-14'>
             <p className='text-3xl font-bold capitalize' style={{color:"#bdf347"}}>enquiry now <AiOutlineMessage className='inline-block font-bold text-3xl'/>
 </p>
             <div className=' '>
               <input type="text" className='h-11 w-full rounded-full px-3' placeholder='Full Name' />
             </div>
             <div className=''>
-              <input type="text" className='h-11 w-full rounded-full px-3' placeholder='Email' />
+              <input type="text" className='h-11 w-full rounded-full px-3' placeholder='ntcodexsystems@gmail.com' />
+            </div>
+            <div className=''>
+              <input type="tel" className='h-11 w-full rounded-full px-3' placeholder='+91-123-456-7890' />
             </div>
             <div className=''>
               <textarea name="" id="" cols="100" rows="3" className='w-full rounded-md p-3' placeholder='What can i help you'></textarea>
@@ -170,12 +173,10 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 <div className='grid grid-cols-1 items-center'>
 
 <div className='grid grid-cols-1 gap-4'>
-  <p className=' text-[#bdf347] md:text-2xl text-2xl  font-bold'>SERVICES</p>
+  <p className=' text-white md:text-2xl text-2xl  font-bold'>SERVICES</p>
 
-<h3 className='text-white md:text-4xl text-3xl  font-bold'>Transform your business with advanced technologies</h3>
+<h3 className=' text-[#bdf347] md:text-4xl text-3xl  font-bold'>Transform your business with advanced technologies</h3>
 </div>
-
-
 
 </div>
 
@@ -183,47 +184,69 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 
 <div className='border-[#828181] border h-auto p-2 text-center relative top-0'>
 
-<div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
-<img src={img4} alt="" className='h-full w-full object-cover'/>
+  <div className='absolute top-0 left-0 w-full h-full opacity-40 z-10 bg-[#060703]'>
 
-</div>
-
-<p className='absolute  text-2xl text-[#bdf347] capitalize left-5 top-36'>chatbot integration</p>
-
-</div>
-
-<div className='border-[#828181] border h-auto p-2 rounded'>
-
+  </div>
 <div className=' lg:h-[20rem] md:h-[25rem] h-[23rem]'>
+
+
+<img src={img4} alt="" className='cursor-pointer h-full w-full object-cover'/>
+
+</div>
+
+<p className='absolute  lg:text-2xl md:text-2xl text-4xl  z-20 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>chatbot integration</p>
+
+</div>
+
+<div className='border-[#828181] border h-auto p-2 text-center relative top-0'>
+
+  <div className='absolute top-0 left-0 w-full h-full opacity-40 z-10 bg-[#060703]'>
+
+  </div>
+<div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
+
+
 <img src={img5} alt="" className='h-full w-full object-cover'/>
 
 </div>
 
-
-
-</div>
-
-<div className='border-[#828181] border h-auto p-2 rounded'>
-
-<div className=' lg:h-[20rem] md:h-[25rem] h-[23rem]'>
-<img src={img6} alt="" className='h-full w-full object-cover'/>
+<p className='absolute lg:text-2xl md:text-2xl text-4xl z-20 text-white font-extrabold capitalize left-[5%] text-center top-[45%]'>website development</p>
 
 </div>
 
+<div className='border-[#828181] border h-auto p-2 text-center relative top-0'>
 
+  <div className='absolute top-0 left-0 w-full h-full opacity-40 z-10 bg-[#060703]'>
+
+  </div>
+<div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
+
+
+<img src={img6} alt="" className='h-full w-full object-cover '/>
 
 </div>
 
-<div className='border-[#828181] border h-auto p-2 rounded'>
+<p className='absolute  lg:text-2xl md:text-2xl text-4xl z-20 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>App development</p>
 
-<div className=' lg:h-[20rem] md:h-[25rem] h-[23rem]'>
+</div>
+
+<div className='border-[#828181] border h-auto p-2 text-center relative top-0'>
+
+  <div className='absolute top-0 left-0 w-full h-full opacity-40 z-10 bg-[#060703]'>
+
+  </div>
+<div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
+
+
 <img src={img7} alt="" className='h-full w-full object-cover'/>
 
 </div>
 
-
+<p className='absolute  lg:text-2xl md:text-2xl text-4xl z-20 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>social media marketing</p>
 
 </div>
+
+
 
 
 </div>
