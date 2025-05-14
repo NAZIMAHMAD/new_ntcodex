@@ -296,7 +296,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </div>
 
 <div className='md:w-[80%] w-auto   text-center md:text-start'>
-<p className='md:text-2xl text-xl capitalize font-semibold'>banking</p>
+<p className='md:text-2xl text-md capitalize font-semibold'>banking</p>
 </div>
 
 </div>
@@ -308,7 +308,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </div>
 
 <div className='md:w-[80%] w-auto text-center md:text-start'>
-<p className='md:text-2xl text-xl capitalize font-semibold'>Retail</p>
+<p className='md:text-2xl text-md capitalize font-semibold'>Retail</p>
 </div>
 
 </div>
@@ -320,7 +320,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </div>
 
 <div className='md:w-[80%] w-auto text-center md:text-start'>
-<p className='md:text-2xl text-xl capitalize font-semibold'>Communications, Media, and Information Services</p>
+<p className='md:text-2xl text-md capitalize font-semibold'>Communications, Media, and Information Services</p>
 </div>
 
 </div>
@@ -333,7 +333,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </div>
 
 <div className='md:w-[80%] w-auto text-center md:text-start'>
-<p className='md:text-2xl text-xl capitalize font-semibold'>Travel & logistices</p>
+<p className='md:text-2xl text-md capitalize font-semibold'>Travel & logistices</p>
 </div>
 
 </div>
@@ -346,7 +346,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </div>
 
 <div className='md:w-[80%] w-auto text-center md:text-start'>
-<p className='md:text-2xl text-xl capitalize font-semibold'>Education</p>
+<p className='md:text-2xl text-md capitalize font-semibold'>Education</p>
 </div>
 
 </div>
@@ -359,7 +359,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </div>
 
 <div className='md:w-[80%] w-auto text-center md:text-start'>
-<p className='md:text-2xl text-xl capitalize font-semibold'>Public services</p>
+<p className='md:text-2xl text-md capitalize font-semibold'>Public services</p>
 </div>
 
 </div>
@@ -372,7 +372,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </div>
 
 <div className='md:w-[80%] w-auto text-center md:text-start'>
-<p className='md:text-2xl text-xl capitalize font-semibold'>Healthcare</p>
+<p className='md:text-2xl text-md capitalize font-semibold'>Healthcare</p>
 </div>
 
 </div>
@@ -385,7 +385,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </div>
 
 <div className='md:w-[80%] w-auto text-center md:text-start'>
-<p className='md:text-2xl text-xl capitalize font-semibold'>High tech</p>
+<p className='md:text-2xl text-md capitalize font-semibold'>High tech</p>
 </div>
 
 </div>
@@ -397,7 +397,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </div>
 
 <div className='md:w-[80%] w-auto text-center md:text-start'>
-<p className='md:text-2xl text-xl capitalize font-semibold'>Insurance
+<p className='md:text-2xl text-md capitalize font-semibold'>Insurance
 </p>
 </div>
 
@@ -410,7 +410,7 @@ Read More <GoArrowDownRight className='inline-block font-bold text-3xl'/>
 </div>
 
 <div className='md:w-[80%] w-auto text-center md:text-start'>
-<p className='md:text-2xl text-xl capitalize font-semibold'>Consumer and good distribution</p>
+<p className='md:text-2xl text-md capitalize font-semibold'>Consumer and good distribution</p>
 </div>
 
 </div>
