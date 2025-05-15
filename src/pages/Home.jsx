@@ -24,6 +24,12 @@ import img17 from '../assets/Images/img17.png'
 import img18 from '../assets/Images/img18.png'
 import img19 from '../assets/Images/img19.png'
 import img20 from '../assets/Images/img20.png'
+import img21 from '../assets/Images/img21.png'
+import img22 from '../assets/Images/img22.png'
+import img23 from '../assets/Images/img23.png'
+import img24 from '../assets/Images/img24.png'
+import img25 from '../assets/Images/img25.png'
+
 import { NavLink } from 'react-router-dom';
 
 
@@ -40,7 +46,7 @@ const Home = () => {
 
       {/* HERO SECTION -SECTION 1. */}
 
-      <section className=' h-auto  px-3 md:px-28 lg:py-16 py-12 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#1a2505] to-[#1d2549]' >
+      <section className=' h-auto  px-3 md:px-28 lg:py-16 py-12 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]' >
 
         <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2  gap-8 items-center'>
 
@@ -88,7 +94,7 @@ const Home = () => {
 
       {/* SECTION 2.  */}
 
-      <section className='w-full h-auto py-12 bg-gradient-to-r from-[#1d2549] via-[#1a2505] to-[#1d2549] lg:px-28 px-3 '>
+      <section className='w-full h-auto py-12 bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549] lg:px-28 px-3 '>
 
         <div className='container mx-auto h-auto grid grid-cols-1 gap-10 '>
 
@@ -177,7 +183,7 @@ const Home = () => {
 
       {/* SECTION 3.  */}
 
-      <section className='w-full h-auto py-12 bg-gradient-to-r from-[#1d2549] via-[#1a2505] to-[#1d2549] lg:px-28 px-3 '>
+      <section className='w-full h-auto py-12 bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549] lg:px-28 px-3 '>
 
         <div className='container mx-auto h-auto grid grid-cols-1 gap-10 '>
 
@@ -279,7 +285,7 @@ const Home = () => {
       {/* SECTION 4. */}
 
 
-      <section className='w-full lg:px-28 px-3 h-auto py-12 bg-gradient-to-r from-[#1d2549] via-[#1a2505] to-[#1d2549]'>
+      <section className='w-full lg:px-28 px-3 h-auto py-12 bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]'>
 
 
         <div className='container  mx-auto  grid grid-cols-1 gap-12'>
@@ -425,7 +431,7 @@ const Home = () => {
 
       {/* SECTION 5.  */}
 
-      <section className='w-full h-auto py-12 bg-gradient-to-r from-[#1d2549] via-[#1a2505] to-[#1d2549] lg:px-28 px-3 '>
+      <section className='w-full h-auto py-12 bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549] lg:px-28 px-3 '>
 
         <div className='container mx-auto h-auto grid grid-cols-1 gap-10 '>
 
@@ -516,7 +522,87 @@ const Home = () => {
 </section>
 
 
+      {/* SECTION 7. */}
 
+<section className='py-12 px-3 lg:px-28 bg-[#bdf347]'>
+
+  <div className='container mx-auto flex flex-col gap-10'>
+
+<div className=''>
+
+<p className='text-lg text-[#1d2549]'> Social</p>
+<h6 className='text-[#1d2549]  md:text-4xl text-3xl  font-bold'>Follow us for the latest updates</h6>
+
+</div>
+
+<div className=' w-auto h-auto gap-x-10 grid grid-cols-5'>
+
+<div className='grid md:grid-cols-2 grid-cols-1 items-center gap-x-4 '>
+  
+<div>
+<img src={img21} alt="" />
+</div>
+
+<div className='lg:flex hidden'>
+<p className='text-[#1d2549]  md:text-2xl text-xl  font-bold'>Facebook</p>
+</div>
+
+</div>
+
+<div className='grid md:grid-cols-2 grid-cols-1 items-center gap-x-4  '>
+  
+<div >
+<img src={img22} alt="" />
+</div>
+
+<div className='lg:flex hidden'>
+<p className='text-[#1d2549]  md:text-2xl text-xl  font-bold'>LinkedIn</p>
+</div>
+
+</div>
+
+<div className='grid md:grid-cols-2 grid-cols-1 items-center gap-x-4  '>
+  
+<div>
+<img src={img23} alt="" />
+</div>
+
+<div className='lg:flex hidden'>
+<p className='text-[#1d2549]  md:text-2xl text-xl  font-bold'>Instagram</p>
+</div>
+
+</div>
+
+<div className='grid md:grid-cols-2 grid-cols-1 items-center gap-x-4 '>
+  
+<div>
+<img src={img24} alt="" />
+</div>
+
+<div className='lg:flex hidden'>
+<p className='text-[#1d2549]  md:text-2xl text-xl  font-bold'>Twitter</p>
+</div>
+
+</div>
+
+<div className='grid md:grid-cols-2 grid-cols-1 items-center gap-x-4 '>
+  
+<div>
+<img src={img25} alt="" />
+</div>
+
+<div className='lg:flex hidden'>
+<p className='text-[#1d2549]  md:text-2xl text-xl  font-bold'>YouTube</p>
+</div>
+
+</div>
+
+</div>
+
+
+  </div>
+   
+</section>
 
 
         </MainLayout>
