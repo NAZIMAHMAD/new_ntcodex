@@ -15,7 +15,7 @@ const navbar = () => {
     <>
     
     
-<header className='bg-gradient-to-r  from-[#1d2549] via-[#365200] to-[#1d2549] h-auto text-white py-5 w-full lg:px-28  px-3' >
+<header className='bg-gradient-to-r  fixed z-30  from-[#1d2549] via-[#365200] to-[#1d2549] h-auto text-white py-5 w-full lg:px-28  px-3' >
 
 <div className='container mx-auto flex lg:justify-between items-center'>
 
@@ -26,7 +26,7 @@ const navbar = () => {
 </div>
 
 <nav className=' text-[16px] lg:block hidden '>
-  <ul className='flex space-x-5 font-medium capitalize text-gray-300'>
+  <ul className='flex space-x-5 font-medium capitalize text-white'>
     <li className='hover:text-white transition-all duration-300 ease-in-out pointer'> <NavLink>what we offer</NavLink>    </li>
     <li className='hover:text-white transition-all duration-300 ease-in-out pointer'><NavLink>who we are</NavLink>  </li>
     <li className='hover:text-white transition-all duration-300 ease-in-out pointer'><NavLink>insight</NavLink>  </li>

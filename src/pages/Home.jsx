@@ -46,7 +46,7 @@ const Home = () => {
 
       {/* HERO SECTION -SECTION 1. */}
 
-      <section className=' h-auto  px-3 md:px-28 lg:py-16 py-12 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]' >
+      <section className=' h-auto   px-3 md:px-28 lg:pt-36 py-12  pt-36 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]' >
 
         <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2  gap-8 items-center'>
 
@@ -204,6 +204,7 @@ const Home = () => {
               <div className='absolute top-0 left-0 w-full h-full opacity-40 z-10 bg-[#060703]'>
 
               </div>
+
               <div className=' lg:h-[20rem] md:h-[25rem] h-[23rem]'>
 
 
@@ -211,7 +212,7 @@ const Home = () => {
 
               </div>
 
-              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  z-20 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>chatbot integration</p>
+              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  z-20 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>Artificial intellegance</p>
 
             </div>
 
@@ -513,7 +514,7 @@ const Home = () => {
   <div className='container mx-auto '>
     <div className='flex justify-center items-center text-center gap-y-4 flex-col'>
       <h5 className='text-[#1d2549]  md:text-6xl text-3xl  font-bold'>Join our team</h5>
-      <p className='text-lg'>Realize your potential.</p>
+      <p className='text-lg font-bold'>Realize your potential.</p>
       <NavLink to="/your-requirement" className='w-[16rem] border-none  rounded-full h-auto text-white  p-3 border font-bold capitalize text-xl bg-[#1d2549]'>
         Your Requirement
       </NavLink>
@@ -530,7 +531,7 @@ const Home = () => {
 
 <div className=''>
 
-<p className='text-lg text-[#1d2549]'> Social</p>
+<p className='text-lg text-[#1d2549] font-bold'> Social</p>
 <h6 className='text-[#1d2549]  md:text-4xl text-3xl  font-bold'>Follow us for the latest updates</h6>
 
 </div>
@@ -604,6 +605,8 @@ const Home = () => {
    
 </section>
 
+
+   
 
         </MainLayout>
 
