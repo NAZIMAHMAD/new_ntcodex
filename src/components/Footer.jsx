@@ -105,8 +105,8 @@ Information Services</li>
 </div>
 
 <div className='md:text-start text-center'>
-<h6 className='text-[#bdf347] font-bold'>@ NTCODEX SYSTEMS PVT LTD</h6>
-<p className='text-[#b9b9bb]'>Terms & Conditions | Security Policy</p>
+<h6 className='text-[#bdf347] font-bold text-[12px] md:text-lg'>@ NTCODEX SYSTEMS PVT LTD</h6>
+<p className='text-[#b9b9bb] text-[12px] md:text-lg'>Terms & Conditions | Security Policy</p>
 </div>
 
 <div>

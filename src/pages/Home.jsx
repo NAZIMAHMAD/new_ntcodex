@@ -46,7 +46,7 @@ const Home = () => {
 
       {/* HERO SECTION -SECTION 1. */}
 
-      <section className=' h-auto   px-3 md:px-28 lg:pt-36 py-12  pt-36 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]' >
+      <section className=' h-auto  px-3 md:px-28  py-12   pt-36 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]' >
 
         <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2  gap-8 items-center'>
 
