@@ -92,7 +92,7 @@ Information Services</li>
 
 <section className='bg-[#1d2549] px-3 lg:px-28 py-6 border-t-[1px] border-[#b9b9bb]'>
 
-<div className='w-16 h-16 fixed bottom-[6rem] right-12 z-40'>
+<div className='w-16 h-16 fixed bottom-[6rem] right-12 z-40 hidden'>
 <img src={chatbot} alt="" className='w-full h-full'/>
 </div>
 

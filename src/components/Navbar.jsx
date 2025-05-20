@@ -56,7 +56,7 @@ const Navbar = () => {
       {/* 🔽 Scroll Navbar - Shows After Scroll */}
       <header
         className={`
-          fixed top-0 left-0  shadow z-30 w-full
+          fixed top-0 left-0   z-30 w-full
           bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]
           text-white py-4 lg:px-28 px-3 
           transform transition-all duration-500 ease-in-out
