@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/Images/logo.jpg'
 import chatbot from '../assets/Images/chatbot.png'
-import zestgo from '../assets/Images/zestGo_logo.jpg'
+import zestgo from '../assets/Images/zestgo_logo.jpg'
 import masjid360 from '../assets/Images/masjid360_logo.jpg'
 
 
