@@ -31,6 +31,7 @@ import img24 from '../assets/Images/img24.png'
 import img25 from '../assets/Images/img25.png'
 
 import { NavLink } from 'react-router-dom';
+import TawkToChat from '../components/TawkToChat';
 
 
 
@@ -43,25 +44,26 @@ const Home = () => {
 
     <MainLayout>
 
+            <TawkToChat />
 
       {/* HERO SECTION -SECTION 1. */}
 
       <section className=' h-auto  px-3 md:px-28  py-12   pt-36 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]' >
 
-        <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2  gap-8 items-center'>
+        <div className='container  mx-auto grid grid-cols-1 text-center lg:justify-center lg:w-[60%] gap-8 items-center'>
 
-          <div className=' text-white flex justify-start gap-5 flex-col text-center lg:text-start'>
+          <div className=' text-white flex items-center justify-center gap-5 flex-col text-center lg:text-center'>
             <h1 className='lg:text-5xl text-4xl  lg:leading-tight leading-tight font-bold '>Crafting Innovation, <span style={{ color: '#bdf347' }}>Code by Code</span>, Delivered with Precision.
             </h1>
             <p className='text-xl'>Your business is our proterites and we serve the quality , your business is our proterites and we serve the quality</p>
 
-            <button className='md:w-60 w-60  border-none rounded-full  h-auto lg:block hidden p-3 border font-bold capitalize text-xl mt-4' style={{ background: '#bdf347', color: '#1d2549' }}>
+            <button className='md:w-60 w-60 transition-all hover:scale-90  hover:bg-gradient-to-r from-white to-[#bdf347] bg-[#bdf347] text-[#1d2549]  border-none rounded-full  h-auto lg:block hidden p-3 border font-bold capitalize text-xl mt-4' >
               Get in touch <GoArrowDownRight className='inline-block font-bold text-3xl' />
             </button>
 
           </div>
 
-          <div className='border-[#7d7c7c] border  hidden lg:flex flex-col gap-6 rounded-xl text-black capitalize py-6 px-14'>
+          <div className='border-[#7d7c7c] border  hidden flex-col gap-6 rounded-xl text-black capitalize py-6 px-14'>
             <p className='text-3xl font-bold capitalize' style={{ color: "#bdf347" }}>enquiry now <AiOutlineMessage className='inline-block font-bold text-3xl' />
             </p>
             <div className=' '>
@@ -76,13 +78,13 @@ const Home = () => {
             <div className=''>
               <textarea name="" id="" cols="100" rows="3" className='w-full rounded-md p-3' placeholder='What can i help you'></textarea>
             </div>
-            <div className='border w-full h-11 flex justify-center rounded-full items-center'>
-              <button className=' text-xl capitalize rounded-full' style={{ color: '#bdf347' }}>Get back to you </button>
+            <div className='border w-full h-11 flex  justify-center rounded-full items-center'>
+              <button className=' text-xl  capitalize rounded-full' style={{ color: '#bdf347' }}>Get back to you </button>
             </div>
 
           </div>
 
-          <div className='lg:hidden md:w-60 block mx-auto w-64 rounded-full' style={{ background: '#bdf347', color: '#1d2549' }}>
+          <div className='lg:hidden  md:w-60 block mx-auto w-64 rounded-full' style={{ background: '#bdf347', color: '#1d2549' }}>
             <button className='w-full border-none  rounded-full h-auto text-white  p-3 border font-bold capitalize text-xl ' style={{ background: '#bdf347', color: '#1d2549' }}>
               Get in touch<GoArrowDownRight className='inline-block font-bold text-3xl' />
             </button>
@@ -115,15 +117,15 @@ const Home = () => {
 
           <div className='grid lg:grid-cols-3 grid-cols-1 md:gap-6 gap-8'>
 
-            <div className='border-[#828181] border h-auto p-2 rounded'>
+            <div className='border-[#828181] border h-auto p-2 rounded-3xl'>
 
-              <div className=' lg:h-[18rem] md:h-[25rem] h-[15rem] object-cover'>
-                <img src={img1} alt="" className='h-full w-full object-cover' />
+              <div className=' lg:h-[18rem] md:h-[25rem] h-[15rem] object-cover rounded-3xl'>
+                <img src={img1} alt="" className='h-full w-full object-cover rounded-3xl' />
 
               </div>
 
               <div className='mt-4 h-auto'>
-                <p className='text-[#c5c6c5] text-md'>Nationwide - TCS Partnership: Reimagining the Future of Banking	https://www.tcs.com/what-we-do/industries/banking/case-study/nationwide-reimagining-future-of-banking
+                <p className='text-white text-md'>Nationwide - TCS Partnership: Reimagining the Future of Banking	https://www.tcs.com/what-we-do/industries/banking/case-study/nationwide-reimagining-future-of-banking
                 </p>
                 <NavLink to="" className="text-[#bdf347] inline-block mt-6 font-bold">
                   Read More <GoArrowDownRight className='inline-block font-bold text-3xl' />
@@ -133,15 +135,15 @@ const Home = () => {
 
             </div>
 
-            <div className='border-[#828181] border h-auto p-2 rounded'>
+            <div className='border-[#828181] border h-auto p-2  rounded-3xl'>
 
-              <div className=' lg:h-[18rem] md:h-[25rem] h-[15rem] object-cover'>
-                <img src={img2} alt="" className='h-full w-full object-cover' />
+              <div className=' lg:h-[18rem] md:h-[25rem] h-[15rem] object-cover rounded-3xl'>
+                <img src={img2} alt="" className='h-full w-full object-cover rounded-3xl' />
 
               </div>
 
               <div className='mt-4 h-auto'>
-                <p className='text-[#c5c6c5] text-md'>Nationwide - TCS Partnership: Reimagining the Future of Banking	https://www.tcs.com/what-we-do/industries/banking/case-study/nationwide-reimagining-future-of-banking
+                <p className='text-white text-md'>Nationwide - TCS Partnership: Reimagining the Future of Banking	https://www.tcs.com/what-we-do/industries/banking/case-study/nationwide-reimagining-future-of-banking
                 </p>
                 <NavLink to="" className="text-[#bdf347] inline-block mt-6 font-bold">
                   Read More <GoArrowDownRight className='inline-block font-bold text-3xl' />
@@ -151,15 +153,15 @@ const Home = () => {
 
             </div>
 
-            <div className='border-[#828181] border h-auto p-2 rounded'>
+            <div className='border-[#828181] border h-auto p-2 rounded-3xl'>
 
-              <div className=' lg:h-[18rem] md:h-[25rem] h-[15rem] object-cover'>
-                <img src={img3} alt="" className='h-full w-full object-cover' />
+              <div className=' lg:h-[18rem] md:h-[25rem] h-[15rem] object-cover rounded-3xl'>
+                <img src={img3} alt="" className='h-full w-full object-cover rounded-3xl' />
 
               </div>
 
               <div className='mt-4 h-auto'>
-                <p className='text-[#c5c6c5] text-md'>Nationwide - TCS Partnership: Reimagining the Future of Banking	https://www.tcs.com/what-we-do/industries/banking/case-study/nationwide-reimagining-future-of-banking
+                <p className='text-white text-md'>Nationwide - TCS Partnership: Reimagining the Future of Banking	https://www.tcs.com/what-we-do/industries/banking/case-study/nationwide-reimagining-future-of-banking
                 </p>
                 <NavLink to="" className="text-[#bdf347] inline-block mt-6 font-bold">
                   Read More <GoArrowDownRight className='inline-block font-bold text-3xl' />
@@ -201,7 +203,7 @@ const Home = () => {
 
             <div className='border-[#828181] border h-auto p-2 text-center relative top-0'>
 
-              <div className='absolute top-0 left-0 w-full h-full opacity-40 z-10 bg-[#060703]'>
+              <div className='absolute top-0 left-0 w-full h-full opacity-40  bg-[#060703]'>
 
               </div>
 
@@ -212,7 +214,7 @@ const Home = () => {
 
               </div>
 
-              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  z-20 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>Artificial intellegance</p>
+              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  z-10 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>Artificial intellegance</p>
 
             </div>
 
@@ -228,7 +230,7 @@ const Home = () => {
 
               </div>
 
-              <p className='absolute lg:text-2xl md:text-2xl text-4xl z-20 text-white font-extrabold capitalize left-[5%] text-center top-[45%]'>website development</p>
+              <p className='absolute lg:text-2xl md:text-2xl text-4xl z-10 text-white font-extrabold capitalize left-[5%] text-center top-[45%]'>website development</p>
 
             </div>
 
@@ -244,7 +246,7 @@ const Home = () => {
 
               </div>
 
-              <p className='absolute  lg:text-2xl md:text-2xl text-4xl z-20 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>App development</p>
+              <p className='absolute  lg:text-2xl md:text-2xl text-4xl z-10 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>App development</p>
 
             </div>
 
@@ -260,7 +262,7 @@ const Home = () => {
 
               </div>
 
-              <p className='absolute  lg:text-2xl md:text-2xl text-4xl z-20 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>social media marketing</p>
+              <p className='absolute  lg:text-2xl md:text-2xl text-4xl z-10 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>social media marketing</p>
 
             </div>
 
@@ -270,7 +272,7 @@ const Home = () => {
           </div>
 
           <div className='grid grid-cols-1 '>
-            <button className='md:w-60 w-60 mx-auto  rounded-full  h-auto   p-3  font-bold capitalize text-xl mt-4 text-white border'>
+            <button className='md:w-60 w-60 mx-auto hover:text-[#1d2549] hover:border-none hover:bg-[#bdf347] hover:scale-90 transition-all  rounded-full  h-auto   p-3  font-bold capitalize text-xl mt-4 text-white border'>
               view all topics <GoArrowDownRight className='inline-block font-bold text-3xl' />
             </button>
           </div>
@@ -453,10 +455,10 @@ const Home = () => {
 
           <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-6 gap-8'>
 
-            <div className='border-[#828181] border rounded-md h-auto p-2 text-center relative top-0'>
+            <div className='border-[#828181] border rounded-3xl h-auto p-2 text-center relative top-0'>
 
 
-              <div className=' md:h-[30rem] h-[23rem] rounded-md'>
+              <div className=' md:h-[30rem] h-[23rem] rounded-3xl'>
 
 
                 <img src={img18} alt="" className='cursor-pointer rounded-md h-full w-full object-cover' />
@@ -467,25 +469,25 @@ const Home = () => {
 
             </div>
 
-            <div className='border-[#828181]   rounded-md border h-auto p-2 text-center relative top-0'>
+            <div className='border-[#828181]   rounded-3xl border h-auto p-2 text-center relative top-0'>
 
               <div className='  md:h-[30rem] h-[23rem] '>
 
 
-                <img src={img19} alt="" className='h-full w-full object-cover' />
+                <img src={img19} alt="" className='h-full w-full object-cover rounded-3xl' />
 
               </div>
 
 
             </div>
 
-            <div className='border-[#828181] rounded-md  border h-auto p-2 text-center relative top-0'>
+            <div className='border-[#828181] rounded-3xl  border h-auto p-2 text-center relative top-0'>
 
 
               <div className='  md:h-[30rem] h-[23rem] '>
 
 
-                <img src={img20} alt="" className='h-full w-full object-cover ' />
+                <img src={img20} alt="" className='h-full w-full object-cover rounded-3xl' />
 
               </div>
 
