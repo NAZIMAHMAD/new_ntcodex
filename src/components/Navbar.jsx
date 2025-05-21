@@ -71,7 +71,7 @@ const Navbar = () => {
         </div>
       </header>
 
-      {/* 🔽 Scroll Navbar - Shows After Scroll */}
+      {/*  Scroll Navbar - Shows After Scroll */}
       <header
         className={`
           fixed top-0 left-0   z-20 w-full
@@ -86,7 +86,7 @@ const Navbar = () => {
             <img src={logo} alt="Logo" className='w-36 h-12 object-cover' />
             <RiMenuAddFill className='lg:hidden text-[#bdf347] text-3xl' />
           </div>
-          <nav className='text-[16px] hidden lg:flex  z-20  w-[80%] lg:w-auto  h-screen lg:h-auto absolute lg:relative lg:top-auto lg:right-auto top-0 right-0 bg-[#bdf347] lg:bg-transparent flex flex-col '>
+          <nav className='text-[16px] hidden lg:flex  z-20  w-[80%] lg:w-auto  h-screen lg:h-auto absolute lg:relative lg:top-auto lg:right-auto top-0 right-0 bg-[#bdf347] lg:bg-transparent  flex-col '>
             <NavLinks />
           </nav>
           <SocialIcons />
