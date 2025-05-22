@@ -48,9 +48,9 @@ const Home = () => {
 
       {/* HERO SECTION -SECTION 1. */}
 
-      <section className=' h-auto  px-3 md:px-28  py-12   pt-36 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]' >
+      <section className=' h-auto  px-3 md:px-28  py-12 relative   pt-20 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]' >
 
-        <div className='container  mx-auto grid grid-cols-1 text-center lg:justify-center lg:w-[60%] gap-8 items-center'>
+        <div className='container  mx-auto grid grid-cols-1 text-center lg:justify-center lg:w-[60%] xl:w-[50%] gap-8 items-center'>
 
           <div className=' text-white flex items-center justify-center gap-5 flex-col text-center lg:text-center'>
             <h1 className='lg:text-5xl text-4xl  lg:leading-tight leading-tight font-bold '>Crafting Innovation, <span style={{ color: '#bdf347' }}>Code by Code</span>, Delivered with Precision.
@@ -201,7 +201,7 @@ const Home = () => {
 
           <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-6 gap-8'>
 
-            <div className='border-[#828181] border h-auto p-2 text-center relative top-0'>
+            <div className='border-[#828181] border h-auto p-2  text-center relative top-0'>
 
               <div className='absolute top-0 left-0 w-full h-full opacity-40  bg-[#060703]'>
 
@@ -214,13 +214,13 @@ const Home = () => {
 
               </div>
 
-              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  z-10 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>Artificial intellegance</p>
+              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  z-0 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>Artificial intellegance</p>
 
             </div>
 
             <div className='border-[#828181] border h-auto p-2 text-center relative top-0'>
 
-              <div className='absolute top-0 left-0 w-full h-full opacity-40 z-10 bg-[#060703]'>
+              <div className='absolute top-0 left-0 w-full h-full opacity-40 z-0 bg-[#060703]'>
 
               </div>
               <div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
@@ -230,13 +230,13 @@ const Home = () => {
 
               </div>
 
-              <p className='absolute lg:text-2xl md:text-2xl text-4xl z-10 text-white font-extrabold capitalize left-[5%] text-center top-[45%]'>website development</p>
+              <p className='absolute lg:text-2xl md:text-2xl text-4xl  text-white font-extrabold capitalize left-[5%] text-center top-[45%]'>website development</p>
 
             </div>
 
             <div className='border-[#828181] border h-auto p-2 text-center relative top-0'>
 
-              <div className='absolute top-0 left-0 w-full h-full opacity-40 z-10 bg-[#060703]'>
+              <div className='absolute top-0 left-0 w-full h-full opacity-40 z-0 bg-[#060703]'>
 
               </div>
               <div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
@@ -246,13 +246,13 @@ const Home = () => {
 
               </div>
 
-              <p className='absolute  lg:text-2xl md:text-2xl text-4xl z-10 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>App development</p>
+              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>App development</p>
 
             </div>
 
             <div className='border-[#828181] border h-auto p-2 text-center relative top-0'>
 
-              <div className='absolute top-0 left-0 w-full h-full opacity-40 z-10 bg-[#060703]'>
+              <div className='absolute top-0 left-0 w-full h-full opacity-40 z-0 bg-[#060703]'>
 
               </div>
               <div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
@@ -262,7 +262,7 @@ const Home = () => {
 
               </div>
 
-              <p className='absolute  lg:text-2xl md:text-2xl text-4xl z-10 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>social media marketing</p>
+              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>social media marketing</p>
 
             </div>
 

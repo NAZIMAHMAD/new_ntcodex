@@ -1,10 +1,14 @@
 import React from 'react'
+import MainLayout from '../layout/MainLayout'
 
 const What_We_Offer = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+    <MainLayout>
+     <h1>what we offer</h1> 
+
+    </MainLayout>
+    </>
   )
 }
 
