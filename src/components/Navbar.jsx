@@ -57,10 +57,12 @@ const Navbar = () => {
       <header className='bg-gradient-to-r  z-10  top-0 relative  left-0 w-full  from-[#1d2549] via-[#365200] to-[#1d2549] text-white py-5 lg:px-28 px-3 '>
         <div className='container mx-auto flex lg:justify-between items-center'>
           <div className='lg:w-36 w-full h-12 flex justify-between items-center'>
-           <NavLink to="/"> <img src={logo} alt="Logo" className='w-36 h-12 object-cover' /> </NavLink> 
+           <NavLink to="/"> 
+           <img src={logo} alt="Logo" className='w-36 h-12 object-cover' /> 
+           </NavLink> 
             <RiMenuAddFill className='lg:hidden text-[#bdf347] text-3xl' onClick={() => setNavbar(true)}/>
           </div>
-          <nav className={`flex gap-y-8   fixed  ps-[1rem] py-[5rem] lg:ps-0 lg:py-0  w-[80%] sm:w-[30%]  lg:w-auto  h-screen overflow-auto lg:h-auto  lg:relative lg:top-auto lg:right-auto top-0 right-0 bg-[#bdf347] lg:bg-transparent  transition-all duration-500 flex-col lg:translate-x-0   ${navbar ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} `}>
+          <nav className={` gap-y-8 lg:z-20 fixed ps-[1rem] py-[5rem] lg:ps-0 lg:py-0  w-[80%] sm:w-[30%]  lg:w-auto  h-screen overflow-auto lg:h-auto  lg:relative lg:top-auto lg:right-auto top-0 right-0 bg-[#bdf347] lg:bg-transparent  transition-all duration-500 flex-col lg:translate-x-0   ${navbar ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} `}>
             <NavLinks />
            
  <div className='lg:hidden flex space-x-5 text-2xl lg:text-[#bdf347] text-[#1d2549] '>
