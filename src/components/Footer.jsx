@@ -3,22 +3,31 @@ import logo from '../assets/Images/logo.jpg'
 import chatbot from '../assets/Images/chatbot.png'
 import zestgo from '../assets/Images/zestgo_logo.jpg'
 import masjid360 from '../assets/Images/masjid360_logo.jpg'
+import { useLocation } from 'react-router-dom'
 
 
 const Footer = () => {
+
+const location = useLocation();
+
+const bgChange = location.pathname == "/" ? "bg-[#1d2549]" : "bg-[#bdf347] text-[#1d2549]";
+const textLi = location.pathname == "/" ? "text-[#b9b9bb]" : "text-[#1d2549]";
+const titleLi = location.pathname == "/" ? "text-white font-bold" : "text-[#1d2549] font-bold";
+
+
   return (
     <>
    {/* SECTION 8. */}
 
-<footer className='bg-[#1d2549] px-3 lg:px-28 py-12'>
+<footer className={`${bgChange} px-3 lg:px-28 py-12`}>
 
-<div className='container mx-auto grid lg:grid-cols-4 grid-cols-2 gap-10'>
+<div className='container mx-auto grid lg:grid-cols-4 grid-cols-2 gap-10 capitalize'>
 
 <div>
 
-  <ul className='text-[#b9b9bb] flex justify-start flex-col gap-2'>
+  <ul className={`${textLi} flex justify-start flex-col gap-2`}>
 
-    <li className='text-white'>INDUSTRY</li>
+    <li className={`${titleLi}`}>INDUSTRY</li>
     <li className='pt-4'>Banking</li>
     <li>Travel and Logistics</li>
     <li>Retail</li>
@@ -36,9 +45,9 @@ Information Services</li>
 
 <div>
 
-  <ul className='text-[#b9b9bb] flex justify-start flex-col gap-2'>
+  <ul className={`${textLi}  flex justify-start flex-col gap-2`}>
 
-    <li className='text-white'>SERVICES</li>
+    <li className={`${titleLi}`}>SERVICES</li>
     <li className='pt-4'>Artifical intellegance</li>
     <li>website Development </li>
     <li>Mobile App Development</li>
@@ -54,9 +63,9 @@ Information Services</li>
 
 <div>
 
-  <ul className='text-[#b9b9bb] flex justify-start flex-col gap-2 '>
+  <ul className={`${textLi} flex justify-start flex-col gap-2 `}>
 
-    <li className='text-white'>INSIGHTS</li>
+    <li className={`${titleLi}`}>INSIGHTS</li>
     <li className='pt-4'>customers story</li>
     <li>cyber sequrity</li>
     <li>future of work </li>
@@ -72,11 +81,11 @@ Information Services</li>
 
 <div>
 
-  <ul className='text-[#b9b9bb] flex justify-start flex-col gap-2'>
+  <ul className={`${textLi} flex justify-start flex-col gap-2`}>
 
-    <li className='text-white'>PRODUCTS & PLATFORM</li>
+    <li className={`${titleLi}`}>PRODUCTS & PLATFORM</li>
     <li className='pt-4'>zeStGo</li>
-        <li className=''>NT MASJID360</li>
+        <li className=''>NTCODEX MASJID360</li>
 
    
 
@@ -109,8 +118,8 @@ Information Services</li>
 </div>
 
 <div className='md:text-center text-center '>
-<h6 className='text-[#bdf347] font-bold text-[12px] md:text-lg'>@ NTCODEX SYSTEMS PVT LTD</h6>
-<p className='text-[#b9b9bb] text-[12px] md:text-lg'>Terms & Conditions | Security Policy</p>
+<h6 className='text-[#bdf347] font-bold text-[12px] md:text-md'>@ NTCODEX SYSTEMS</h6>
+<p className='text-[#b9b9bb] text-[12px] md:text-md'>Terms & Conditions | Security Policy</p>
 </div>
 
 <div className='w-auto h-auto grid grid-cols-1 justify-end items-end  gap-3'>

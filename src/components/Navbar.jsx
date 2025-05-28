@@ -33,7 +33,7 @@ const Navbar = () => {
       <li className=' lg:hidden flex' onClick={() => setNavbar(false)}>      <FaRegRectangleXmark className='text-2xl'/>
 </li>
 
-      <li className='hover:text-[#bdf347] transition-all hover:scale-90'><NavLink to="/What_We_Offer">what we offer</NavLink></li>
+      <li className='hover:text-[#bdf347] transition-all hover:scale-90'><NavLink to="/What_We_Offer">what we do</NavLink></li>
       <li className='hover:text-[#bdf347] transition-all hover:scale-90'><NavLink to="/Who_We_Are">who we are
         </NavLink></li>
       <li className='hover:text-[#bdf347] transition-all hover:scale-90'><NavLink to="/Insight">insight</NavLink></li>
