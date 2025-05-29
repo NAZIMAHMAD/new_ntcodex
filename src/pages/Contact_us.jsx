@@ -2,6 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Img26 from '../assets/Images/img26.jpg'
 import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
+import { BiSolidMessageAltDots } from "react-icons/bi";
+
 
 
 
@@ -24,9 +26,18 @@ const Contact_us = () => {
 
         <div className='grid grid-cols-1 gap-4 '>
 
-          <h1 className='uppercase font-extrabold text-3xl text-[#1d2549]' 
->Request for Services
+<div className='flex items-center gap-3'>
+
+<BiSolidMessageAltDots className='text-3xl text-[#1d2549]'/>
+
+          <h1 className='uppercase font-extrabold text-2xl lg:text-3xl text-[#1d2549]' 
+> 
+Request for Services
 </h1>
+
+
+</div>
+
 <p>We’ve driven growth and purposeful transformation across every industry and we’re excited to build on your belief. Tell us a bit more about yourself, so we can get the ball rolling.</p>
 
 <div className='grid md:grid-cols-2 grid-cols-1 gap-4 '>

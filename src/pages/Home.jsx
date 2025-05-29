@@ -1,7 +1,7 @@
 import React from 'react'
 import MainLayout from '../layout/MainLayout'
-import { GoArrowDownRight } from "react-icons/go";
 import { AiOutlineMessage } from "react-icons/ai";
+import { GoArrowDownRight } from "react-icons/go";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import img1 from '../assets/Images/img1.png'
@@ -24,6 +24,7 @@ import img25 from '../assets/Images/img25.png'
 import { NavLink } from 'react-router-dom';
 import TawkToChat from '../components/TawkToChat';
 import Services from '../components/Services';
+import Technology from '../components/Technology';
 
 
 
@@ -177,103 +178,22 @@ const Home = () => {
 
       {/* SECTION 3.  */}
 
-      <section className='w-full h-auto py-12 bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549] lg:px-28 px-3 '>
+      <Technology 
 
-        <div className='container mx-auto h-auto grid grid-cols-1 gap-10 '>
+      heading="services"
+      title1="Transform your business with advanced technologies"
+      title2="Artificial intellegance"
+      title3="website development"
+      title4="App development"
+      title5="social media marketing"
+      img1={img4}
+       img2={img5}
+        img3={img6}
+         img4={img7}
+         style="bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]"
+      />
 
-          <div className='grid grid-cols-1 items-center'>
-
-            <div className='md:w-[70%] w-full mx-auto gap-4 flex justify-center flex-col text-center'>
-              <p className=' text-white md:text-2xl text-2xl  font-bold'>SERVICES</p>
-
-              <h3 className=' text-[#bdf347] md:text-4xl text-3xl  font-bold'>Transform your business with advanced technologies</h3>
-            </div>
-
-          </div>
-
-          <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-6 gap-8'>
-
-            <div className='border-[#828181] border h-auto p-2  text-center relative top-0 transition-all duration-500 hover:scale-105 pointer'>
-
-              <div className='absolute top-0 left-0 w-full h-full opacity-40  bg-[#060703]'>
-
-              </div>
-
-              <div className=' lg:h-[20rem] md:h-[25rem] h-[23rem]'>
-
-
-                <img src={img4} alt="" className='cursor-pointer h-full w-full object-cover' />
-
-              </div>
-
-              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  z-0 text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>Artificial intellegance</p>
-
-            </div>
-
-            <div className='border-[#828181] border h-auto p-2 text-center relative top-0 transition-all duration-500 hover:scale-105 pointer'>
-
-              <div className='absolute top-0 left-0 w-full h-full opacity-40 z-0 bg-[#060703]'>
-
-              </div>
-              <div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
-
-
-                <img src={img5} alt="" className='h-full w-full object-cover' />
-
-              </div>
-
-              <p className='absolute lg:text-2xl md:text-2xl text-4xl  text-white font-extrabold capitalize left-[5%] text-center top-[45%]'>website development</p>
-
-            </div>
-
-            <div className='border-[#828181] border h-auto p-2 text-center relative top-0 transition-all duration-500 hover:scale-105 pointer'>
-
-              <div className='absolute top-0 left-0 w-full h-full opacity-40 z-0 bg-[#060703]'>
-
-              </div>
-              <div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
-
-
-                <img src={img6} alt="" className='h-full w-full object-cover ' />
-
-              </div>
-
-              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>App development</p>
-
-            </div>
-
-            <div className='border-[#828181] border h-auto p-2 text-center relative top-0 transition-all duration-500 hover:scale-105 pointer'>
-
-              <div className='absolute top-0 left-0 w-full h-full opacity-40 z-0 bg-[#060703]'>
-
-              </div>
-              <div className=' lg:h-[20rem] md:h-[25rem] h-[23rem] '>
-
-
-                <img src={img7} alt="" className='h-full w-full object-cover' />
-
-              </div>
-
-              <p className='absolute  lg:text-2xl md:text-2xl text-4xl  text-white font-extrabold capitalize left-[5%] mx-auto top-[45%]'>social media marketing</p>
-
-            </div>
-
-
-
-
-          </div>
-
-          <div className='grid grid-cols-1 '>
-            <button className='md:w-60 w-60 mx-auto hover:text-[#1d2549] hover:border-none hover:bg-[#bdf347] hover:scale-90 transition-all  rounded-full  h-auto   p-3  font-bold capitalize text-xl mt-4 text-white border'>
-              view all topics <GoArrowDownRight className='inline-block font-bold text-3xl' />
-            </button>
-          </div>
-
-        </div>
-
-
-
-      </section>
+     
 
 
 
