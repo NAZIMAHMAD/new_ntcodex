@@ -180,7 +180,7 @@ const Home = () => {
 
       <Technology 
 
-      heading="services"
+      heading="Services"
       title1="Transform your business with advanced technologies"
       title2="Artificial intellegance"
       title3="website development"
