@@ -94,7 +94,7 @@ const Navbar = () => {
 </div>
 
 
-          </nav>``
+          </nav>
           <SocialIcons />
         </div>
       </header>

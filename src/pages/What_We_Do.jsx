@@ -9,6 +9,7 @@ import img4 from '../assets/Images/img28.jpg'
 import img5 from '../assets/Images/img29.jpg'
 import img6 from '../assets/Images/img30.jpg'
 import img7 from '../assets/Images/img31.jpg'
+import Hero from '../components/Hero';
 
 
 const What_We_Do = () => {
@@ -17,22 +18,17 @@ const What_We_Do = () => {
     <MainLayout>
     
 
-<section className=' px-3 lg:px-28 bg-[#1d2549] py-12'>
-
-<div className=' text-white mx-auto container grid grid-cols-1 gap-y-7 '>
-
-<h1 className='lg:text-2xl text-xl uppercase'>what we do</h1>
-<p className='lg:text-6xl text-3xl font-bold'>
-Let's talk for what we do
-</p>
+<Hero 
+h1="what we do"
+p="lets connect , what we do"
+style="bg-[#1d2549]"
+>
 
 <NavLink className="text-xl">Let's talk <MdArrowOutward className='inline-block text-4xl  bg-white text-black rounded-full'/>
  </NavLink>
 
-</div>
+</Hero>
 
-
-</section>
 
 <section className=' bg-[#1d2549] py-12'>
 
