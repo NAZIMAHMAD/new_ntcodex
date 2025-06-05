@@ -6,6 +6,8 @@ import { NavLink } from 'react-router-dom';
 import { MdArrowOutward } from "react-icons/md";
 import img33 from '../assets/Images/img33.jpg'
 import img34 from '../assets/Images/img34.jpg'
+import { FaArrowRight } from "react-icons/fa6";
+
 
 
 
@@ -190,13 +192,51 @@ const Who_Am_I = () => {
 </h3>
 <p className='text-lg '>TCS is seen as a benchmark in its outreach to investors, in its transparency and disclosures, publicly communicating its strategy, risks and opportunities, reducing information asymmetries and enabling fair valuation of the stock.
 </p>
-<button className=' w-60 h-16 border text-xl font-bold'>
-Read More
-</button>
+
+<div className=' w-60 h-16 flex gap-4 items-center '>
+<NavLink className='  text-xl font-bold  rounded-full'>
+Read More 
+</NavLink> <MdArrowOutward className=' text-3xl  bg-white text-black rounded-full' />
+</div>
+
 
 </div>
 
   </div>
+</section>
+
+
+<section className='lg:px-28 px-3 py-12 bg-[#1d2549]'>
+
+<div className='container mx-auto grid lg:grid-cols-2 grid-cols-1 gap-10  lg:gap-4 text-white'>
+
+  <div className='grid grid-cols-1 gap-4 lg:text-start text-center'>
+    <h5 className='text-4xl font-bold'>Transformation starts here
+</h5>
+<p className='text-xl'>Reimagine your future.
+</p>
+
+<div className=' w-60 h-16 flex gap-4 lg:mx-0 mx-auto items-center border justify-center rounded-full'>
+<NavLink className='  text-xl font-bold  rounded-full'>
+Read More 
+</NavLink> <MdArrowOutward className=' text-3xl text-white rounded-full' />
+</div>
+
+  </div>
+
+  <div className='grid grid-cols-1 gap-4  lg:ps-10 ps-0 lg:border-l-2 lg:text-start text-center'>
+<p className='text-4xl font-bold'>Find out more
+</p>
+<div className=' w-44 h-10 flex gap-4 mx-auto lg:mx-0 items-center border justify-center rounded-full'>
+<NavLink className='  text-xl font-bold  rounded-full'>
+Read More 
+</NavLink> <MdArrowOutward className=' text-3xl  text-white rounded-full' />
+</div>
+
+  </div>
+
+</div>
+
 </section>
 
 
