@@ -18,8 +18,8 @@ const Insight = () => {
 
         <Hero
 
-          h1="insight"
-          p="Stay in the know
+          p="Insight"
+          h1="Stay in the know
 "
           style="bg-[#1d2549]"
 
@@ -56,9 +56,9 @@ const Insight = () => {
 
 <section className=' bg-[#1d2549] lg:py-12 py-6'>
 
-<div className=' grid grid-cols-1 lg:grid-cols-2 gap-8'>
+<div className=' grid grid-cols-1 md:grid-cols-2  gap-8'>
 
-<div className=' text-white flex flex-col gap-6 lg:p-28 px-3'>
+<div className=' text-white flex flex-col  gap-6 lg:p-28 md:p-16 px-3'>
 <h1 className='text-4xl  font-bold'>Explore our insights
 </h1>
 <p className='text-xl'>The great reimagination of work is happening. Now.
@@ -70,12 +70,13 @@ const Insight = () => {
 </div>
 
 <div className=' lg:h-auto h-[25rem]'>
-<img src={img35} alt="" className='h-full'/>
+<img src={img35} alt="" className='h-full w-full'/>
 </div>
 
 </div>
 
 </section>
+
 
 <section className='lg:px-28 px-3 py-12 bg-[#1d2549]'>
 

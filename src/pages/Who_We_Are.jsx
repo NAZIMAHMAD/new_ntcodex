@@ -217,8 +217,8 @@ Read More
 </p>
 
 <div className=' w-60 h-16 flex gap-4 lg:mx-0 mx-auto items-center border justify-center rounded-full'>
-<NavLink className='  text-xl font-bold  rounded-full'>
-Read More 
+<NavLink className='  text-xl font-bold  rounded-full capitalize'>
+Connect With Us
 </NavLink> <MdArrowOutward className=' text-3xl text-white rounded-full' />
 </div>
 
@@ -227,9 +227,9 @@ Read More
   <div className='grid grid-cols-1 gap-4  lg:ps-10 ps-0 lg:border-l-2 lg:text-start text-center'>
 <p className='text-4xl font-bold'>Find out more
 </p>
-<div className=' w-44 h-10 flex gap-4 mx-auto lg:mx-0 items-center border justify-center rounded-full'>
-<NavLink className='  text-xl font-bold  rounded-full'>
-Read More 
+<div className=' w-60 h-10 flex gap-4 mx-auto lg:mx-0 items-center border justify-center rounded-full'>
+<NavLink className='  text-xl font-bold  rounded-full capitalize'>
+what we do
 </NavLink> <MdArrowOutward className=' text-3xl  text-white rounded-full' />
 </div>
 
@@ -238,6 +238,8 @@ Read More
 </div>
 
 </section>
+
+
 
 
       </MainLayout>

@@ -293,7 +293,7 @@ bg="bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]
     <div className='flex justify-center items-center text-center gap-y-4 flex-col'>
       <h5 className='text-[#1d2549]  md:text-6xl text-3xl  font-bold'>Join our team</h5>
       <p className='text-lg font-bold'>Realize your potential.</p>
-      <NavLink to="/your-requirement" className='w-[16rem] border-none  rounded-full h-auto text-white  p-3 border font-bold capitalize text-xl bg-[#1d2549]'>
+      <NavLink to="/your-requirement" className='w-[16rem] border-none grid items-center  rounded-full h-16 text-white  p-3  font-bold capitalize text-xl bg-[#1d2549]'>
         Your Requirement
       </NavLink>
     </div>
