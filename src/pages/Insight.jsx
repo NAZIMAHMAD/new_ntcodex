@@ -18,8 +18,8 @@ const Insight = () => {
 
         <Hero
 
-          p="Insight"
-          h1="Stay in the know
+          p="Stay in the know"
+          h1="INSIGHTS
 "
           style="bg-[#1d2549]"
 
