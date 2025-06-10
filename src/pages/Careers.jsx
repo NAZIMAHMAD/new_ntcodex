@@ -129,7 +129,7 @@ const Careers = () => {
 <p className='text-xl'>Watching the world of next-tech unfold? It's time to be part of it. Explore challenging and exciting opportunities across the globe.
 
 </p>
-<NavLink className="text-xl">Let's talk <MdArrowOutward className='inline-block text-4xl  bg-white text-black rounded-full'/>
+<NavLink className="text-xl">Search open roles <MdArrowOutward className='inline-block text-4xl  bg-white text-black rounded-full'/>
  </NavLink>
 
 

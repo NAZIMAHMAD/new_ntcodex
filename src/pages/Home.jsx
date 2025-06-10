@@ -41,7 +41,7 @@ const Home = () => {
 
       {/* HERO SECTION -SECTION 1. */}
 
-      <section className=' h-auto  px-3 md:px-28  py-12 relative   pt-20 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]' >
+      <section className=' h-auto  px-3 md:px-28  py-12 relative   pt-15 w-full flex items-center bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]' >
 
         <div className='container  mx-auto grid grid-cols-1 text-center lg:justify-center lg:w-[60%] xl:w-[50%] gap-8 items-center'>
 
@@ -293,7 +293,7 @@ bg="bg-gradient-to-r from-[#1d2549] via-[#365200] to-[#1d2549]
     <div className='flex justify-center items-center text-center gap-y-4 flex-col'>
       <h5 className='text-[#1d2549]  md:text-6xl text-3xl  font-bold'>Join our team</h5>
       <p className='text-lg font-bold'>Realize your potential.</p>
-      <NavLink to="/your-requirement" className='w-[16rem] border-none grid items-center  rounded-full h-16 text-white  p-3  font-bold capitalize text-xl bg-[#1d2549]'>
+      <NavLink to="/What_is_in_your_mind" className='w-[16rem] border-none grid items-center  rounded-full h-16 text-white  p-3  font-bold capitalize text-xl bg-[#1d2549]'>
         Your Requirement
       </NavLink>
     </div>
