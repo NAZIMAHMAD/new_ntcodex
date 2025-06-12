@@ -42,7 +42,7 @@ const Navbar = () => {
         </NavLink></li>
       <li className='lg:hover:text-[#bdf347] transition-all lg:hover:scale-90'><NavLink to="/Insight">insight</NavLink></li>
       <li className='lg:hover:text-[#bdf347] transition-all lg:hover:scale-90'><NavLink to="/Careers">careers</NavLink></li>
-      <li className='lg:hover:text-[#bdf347] transition-all lg:hover:scale-90'><NavLink to="/Contact_us">contact</NavLink></li>
+      <li className='lg:hover:text-[#bdf347] transition-all lg:hover:scale-90'><NavLink to="/What_is_in_your_mind">contact us</NavLink></li>
     </ul>
   );
 
@@ -59,7 +59,7 @@ const Navbar = () => {
     <>
       {/* ✅ Default Navbar - Always Visible */}
       <header className='bg-gradient-to-r    top-0 relative  left-0 w-full  from-[#1d2549] via-[#365200] to-[#1d2549] text-white py-5 lg:px-28 px-3 '>
-        <div className='container    rounded-full p-3  bg-[#1d2549]/60 mx-auto flex lg:justify-between items-center'>
+        <div className='container    rounded-full p-3  bg-[#365200]/60 mx-auto flex lg:justify-between items-center'>
           <div className='lg:w-36 w-full h-12 flex justify-between items-center'>
            <NavLink to="/"> 
            <img src={logo} alt="Logo" className='w-36 h-12 object-cover' /> 

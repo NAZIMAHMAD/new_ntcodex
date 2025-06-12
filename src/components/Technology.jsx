@@ -89,7 +89,7 @@ const Technology = ({heading, title1, title2, title3, title4, title5, img1, img2
 
                     </div>
 
-                    <div className='grid grid-cols-1 '>
+                    <div className=' hidden'>
                         <button className='md:w-60 w-60 mx-auto hover:text-[#1d2549] hover:border-none hover:bg-[#bdf347] hover:scale-90 transition-all  rounded-full  h-auto   p-3  font-bold capitalize text-xl mt-4 text-white border'>
                             view all topics <GoArrowDownRight className='inline-block font-bold text-3xl' />
                         </button>
